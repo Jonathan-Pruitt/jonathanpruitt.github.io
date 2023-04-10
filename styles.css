@@ -31,3 +31,29 @@ img{
     border-radius:50%;
     box-shadow:2px 2px 3px rgba(76, 0, 130, 0.258);
 }
+
+.hero{
+    outline:1px solid red;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.headshot{
+    transition:transform 3s;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:url("IMG_2002-modified.png");
+    background-size: contain;
+}
+.headshot:hover{
+    transform:rotate(360deg);
+}
+.headshot img{
+    transition:opacity 1s;
+}
+.headshot:hover img{
+opacity:0;
+}
