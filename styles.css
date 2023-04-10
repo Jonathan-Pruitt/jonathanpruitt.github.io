@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:inherit;
+    font-weight:inherit;
+    font-family: inherit;
+    text-decoration: inherit;
+    line-height:inherit;
+    color:inherit;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: azure;
+    font-size:15px;
+    line-height: 30px;
+    color:rgb(58, 15, 99);
+    text-align: center;
+    text-shadow:1px 1px 0px whitesmoke;
+}
+h1{
+    background-color: beige;
+    color: indigo;
+    font-size: 36px;
+    line-height:50px;
+    font-weight: bold;
+    text-shadow:1px 1px 0px rgb(236, 177, 177);
+}
+img{
+    border-radius:50%;
+    box-shadow:2px 2px 3px rgba(76, 0, 130, 0.258);
+}
