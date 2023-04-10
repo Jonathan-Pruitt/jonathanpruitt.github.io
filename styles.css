@@ -13,7 +13,8 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: azure;
-    font-size:15px;
+    font-size:20px;
+    font-weight: bold;
     line-height: 30px;
     color:rgb(58, 15, 99);
     text-align: center;
@@ -30,17 +31,20 @@ h1{
 img{
     border-radius:50%;
     box-shadow:2px 2px 3px rgba(76, 0, 130, 0.258);
+    height: 400px;
+    width: 400px;
 }
 
 .hero{
-    outline:1px solid red;
     height:100vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
+    border: 0;
+    padding: 0;
 }
 .headshot{
-    transition:transform 3s;
+    transition:transform 1.5s;
     width: 400px;
     height: 400px;
     margin-left: auto;
@@ -56,4 +60,9 @@ img{
 }
 .headshot:hover img{
 opacity:0;
+}
+section{
+    border-top:2px dashed rgb(146, 104, 176);
+    max-width: 600px;
+    margin: 0 auto;
 }
