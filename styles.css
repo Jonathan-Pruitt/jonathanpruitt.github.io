@@ -28,6 +28,9 @@ h1{
     font-weight: bold;
     text-shadow:1px 1px 0px rgb(236, 177, 177);
     border-radius: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+
 }
 h2{
     color:crimson;
@@ -48,6 +51,7 @@ img{
     justify-content:center;
     border: 0;
     padding: 0;
+    max-width: 400px;
 }
 .headshot{
     transition:transform 1.5s;
@@ -59,23 +63,34 @@ img{
     background-size: contain;
     border-radius: 50%;
     border: 5px solid purple;
-    box-shadow:3px 3px 5px rgba(76, 0, 130, 0.258);
+    box-shadow:7px 7px 5px rgba(76, 0, 130, 0.258);
     display:flex;
     flex-direction:column;
     justify-content:center;
-    padding: 0;
 }
 .headshot:hover{
-    transform:rotate(360deg);
+    transform: scale(-1, -1) rotate(180deg);
 }
 .headshot img{
     transition:opacity 1s;
 }
 .headshot:hover img{
-opacity:0;
+    opacity:0;
 }
 section{
-    border-top:2px dashed rgb(146, 104, 176);
-    max-width: 400px;
+    border-top:10px dashed rgb(146, 104, 176);
     margin: 0 auto;
+    
+}
+.prose {
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: justify;
+    font-weight: normal;
+}
+.prose p{
+    margin: 10px auto;
+}
+.bio {
+    margin-top: 10vh;
 }
