@@ -52,6 +52,7 @@ img{
     border: 0;
     padding: 0;
     max-width: 400px;
+    padding-bottom: 10vh;
 }
 .headshot{
     transition:transform 1.5s;
@@ -67,6 +68,7 @@ img{
     display:flex;
     flex-direction:column;
     justify-content:center;
+    position: relative;
 }
 .headshot:hover{
     transform: scale(-1, -1) rotate(180deg);
@@ -80,6 +82,7 @@ img{
 section{
     border-top:10px dashed rgb(146, 104, 176);
     margin: 0 auto;
+    padding: 50px;
     
 }
 .prose {
@@ -93,4 +96,12 @@ section{
 }
 .bio {
     margin-top: 10vh;
+}
+.original{
+    border-radius: 0;
+    width: 800px;
+}
+.create{
+    text-align:center;
+
 }
