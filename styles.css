@@ -8,6 +8,7 @@
     text-decoration: inherit;
     line-height:inherit;
     color:inherit;
+    font-style:inherit;
 }
 
 body{
@@ -26,7 +27,7 @@ h1{
     font-size: 36px;
     line-height:60px;
     font-weight: bold;
-    text-shadow:1px 1px 0px rgb(236, 177, 177);
+    text-shadow:2px 2px 0px rgb(236, 177, 177);
     border-radius: 15px;
     max-width: 400px;
     margin: 0 auto;
@@ -45,12 +46,12 @@ img{
     width: 400px;
 }
 .hero{
-    height:100vh;
+    height:80vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
     border: 0;
-    padding: 0;
+    padding:0;
     max-width: 400px;
     padding-bottom: 10vh;
 }
@@ -64,7 +65,7 @@ img{
     background-size: contain;
     border-radius: 50%;
     border: 5px solid purple;
-    box-shadow:7px 7px 5px rgba(76, 0, 130, 0.258);
+    box-shadow:10px 10px 5px rgba(76, 0, 130, 0.258);
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -77,15 +78,18 @@ img{
     transition:opacity 1s;
 }
 .headshot:hover img{
-    opacity:0;
+    opacity:0%;
 }
 section{
-    border-top:10px dashed rgb(146, 104, 176);
+    border-top:5px dashed rgba(146, 104, 176, 0.438);
     margin: 0 auto;
     padding: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     
 }
 .prose {
+    padding-top: 2em;
     margin: 0 auto;
     max-width: 500px;
     text-align: justify;
@@ -95,7 +99,7 @@ section{
     margin: 10px auto;
 }
 .bio {
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 .original{
     border-radius: 0;
@@ -104,4 +108,19 @@ section{
 .create{
     text-align:center;
 
+}
+a {
+    color:rgb(6, 84, 240);
+}
+a:hover{
+    color:rgba(130, 12, 215, 0.808);
+}
+address{
+    white-space: pre-line;
+}
+h3{
+    font-size: 25px;
+    line-height: 3em;
+    color:rgba(56, 22, 81, 0.808);
+    text-shadow: 2px 2px 1px rgb(212, 175, 241);
 }
