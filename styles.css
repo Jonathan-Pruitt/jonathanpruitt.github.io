@@ -1,3 +1,7 @@
+html {
+    display:flex;
+    flex-direction: column;
+}
 *{
     margin:0;
     padding:0;
@@ -18,7 +22,6 @@ body{
     font-weight: bold;
     line-height: 30px;
     color:rgb(58, 15, 99);
-    /* text-align: center; */
     text-shadow: 1px 1px 0px rgb(212, 175, 241);
 }
 h1{
@@ -55,7 +58,6 @@ img{
     border: 0;
     padding:0;
     max-width: 400px;
-    padding-bottom: 10vh;
 }
 .headshot{
     transition:transform 1.5s;
@@ -85,18 +87,30 @@ img{
 section{
     border-top:5px dashed rgba(146, 104, 176, 0.438);
     margin: 0 auto;
-    padding: 50px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     text-align: center;
-    
 }
+
+section:target h1{
+    animation:border 1s;
+}
+
+@keyframes border{
+    from{
+        border: 10px solid rgb(255, 193, 77);
+    }
+    to{
+        border: 0px solid rgb(255, 193, 77);
+    }
+}
+
 .prose {
     padding-top: 2em;
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 65vw;
     text-align: justify;
-    font-weight: normal;
+    font-weight: bold;
 }
 .prose p{
     margin: 10px auto;
@@ -137,10 +151,43 @@ ul {
     flex-direction: row;
     text-align: left;
     flex-grow:1;
+    list-style-type: none;
 }
 ol {
     max-width: 400px;
     align-self: center;
     margin: 0 20px;
     font-size: 25px;
+}
+dl {
+    list-style-type: none;
+    line-height: 40px;
+    font-size: x-large;
+}
+.nav {
+    width: 100%;
+    display: flex;
+    position:fixed;
+    z-index: 999;
+}
+.nav li {
+    line-height: 50px;
+    background-color:purple;
+    flex-grow:1;
+    box-shadow: 1px 15px 6px #747474;
+}
+
+.nav li a {
+    display: block;
+    text-align:center;
+    font-size: 25px;
+    color : rgb(255, 166, 0);
+    text-shadow: 3px 3px 1px #555;
+    transition:background-color 0.4s, border 0.3s;
+}
+
+.nav li a:hover {
+    background-color: rgb(160, 24, 160);
+    border: 3px solid rgb(225, 56, 225);
+    border-radius: 5px;
 }

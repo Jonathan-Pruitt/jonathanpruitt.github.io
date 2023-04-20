@@ -3,8 +3,16 @@
 	<head>
 		<title>JONATHAN PRUITT</title>
 		<link rel="stylesheet" href="styles.css" />
+		<meta name="viewport" content="width=device-width,
+		initial-scale=1"/>
 	</head>
 	<body>
+		<ul class="nav">
+			<li><a href="#portfolio">My Creations</a></li>
+			<li><a href="#knowledge">Tech Education</a></li>
+			<li><a href="#myself">About Me</a></li>
+			<li><a href="#contact">Contact Info</a></li>
+		</ul>
 		<section class="hero">
 			<header>
 				<div class="headshot">
@@ -14,23 +22,28 @@
 				<h3>Junior Developer</h3>
 			</header>
 		</section>
-		<section></section>
-		<area>
-		<!-- <section class="create"> -->
+		<section id="portfolio">
 			<header>
 				<h1>My Creations</h1>
 			</header>
 			<h3>"A simple turn-based combat sim"</h3>
-			<!-- <div> -->
 				<ul>
 					<img class="original" src="Battle Sim.png" id="BttleSim" alt="Battle Simulator Screenshot" />
 				<!-- <p class="prose">Your hero's stats are randomly assigned within specified parameters. Your opponent's name and title are randomly generated with over 2,800 total possibilities.</p> -->
 					<ol>Your hero's stats are randomly assigned within specified parameters. Your opponent's name and title are randomly generated with over 2,800 total possibilities.</ol>
 				</ul>
-			<!-- </div> -->
-		<!-- </section> -->
-		</area>
-		<section>
+			</section>
+		<section id="knowledge">
+			<header>
+				<h1>Tech Education</h1>
+			</header>
+			<dl>
+				<li>C#</li>
+				<li>Python</li>
+				<li>C++</li>
+			</dl>
+		</section>
+		<section id="myself">
 			<header class="bio">
 				<h1>About me</h1>
 			</header>
@@ -43,7 +56,7 @@
 				<span>I joined on with Mississippi Coding Academies, and have been working towards full-stack development certification.</span>
 			</div>
 		</section>
-		<section>
+		<section id="contact">
 			<h1>Contact Info</h1>
 			<address>
 				Jonathan Pruitt
