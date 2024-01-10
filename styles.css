@@ -93,12 +93,12 @@ section{
 }
 
 section:target h1{
-    animation:border 1s;
+    animation:flash 1s;
 }
 
-@keyframes border{
+@keyframes flash{
     from{
-        border: 10px solid rgb(255, 193, 77);
+        border: 20px solid rgb(255, 193, 77);
     }
     to{
         border: 0px solid rgb(255, 193, 77);
