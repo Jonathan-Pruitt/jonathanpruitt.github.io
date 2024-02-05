@@ -163,6 +163,8 @@ dl {
     display: flex;
     position:fixed;
     z-index: 999;
+    font-family: monospace;
+    letter-spacing: 3px;
 }
 .nav li {
     line-height: 50px;
