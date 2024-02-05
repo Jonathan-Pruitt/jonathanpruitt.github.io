@@ -38,13 +38,7 @@ h1{
     
 
 }
-h2{
-    color:crimson;
-    font-size: 26px;
-    font-weight: bold;
-    text-shadow: 1px 1px 0px rgb(239, 243, 152);
-    transform:rotate(5deg);
-}
+
 img{
     border-radius:50%;
     height: 400px;
@@ -98,10 +92,10 @@ section:target h1{
 
 @keyframes flash{
     from{
-        border: 20px solid rgb(255, 193, 77);
+        border: 20px solid rgb(122, 255, 77);
     }
     to{
-        border: 0px solid rgb(255, 193, 77);
+        border: 0px solid rgb(122, 255, 77);
     }
 }
 
@@ -181,7 +175,7 @@ dl {
     display: block;
     text-align:center;
     font-size: 25px;
-    color : rgb(255, 166, 0);
+    color : rgb(122, 255, 77);
     text-shadow: 3px 3px 1px #555;
     transition:background-color 0.4s, border 0.3s;
 }
