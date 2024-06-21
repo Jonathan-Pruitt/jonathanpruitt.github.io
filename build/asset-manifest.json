@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/jonathanpruitt.github.io/static/js/main.a7950dd6.js",
+    "static/media/catan_tracker.pdf": "/jonathanpruitt.github.io/static/media/catan_tracker.b02324a0e4f7c2d18aa1.pdf",
+    "static/media/Catan_Track.png": "/jonathanpruitt.github.io/static/media/Catan_Track.bf97a9b4162f9ed66dcb.png",
+    "static/media/Suggest_Jonathan.png": "/jonathanpruitt.github.io/static/media/Suggest_Jonathan.e9a2b41fe060c813fcc1.png",
+    "static/media/alt_hero.png": "/jonathanpruitt.github.io/static/media/alt_hero.21cdba0c5636cf134901.png",
+    "static/media/primary_hero.png": "/jonathanpruitt.github.io/static/media/primary_hero.b0c3f12ac0d8e2ee4098.png",
+    "static/media/weather2.jpg": "/jonathanpruitt.github.io/static/media/weather2.5d2b7e7e1896156ab451.jpg",
+    "static/media/Before_Jonathan.png": "/jonathanpruitt.github.io/static/media/Before_Jonathan.7c1487ce4dcd59777c24.png",
+    "static/media/After_Jonathan.png": "/jonathanpruitt.github.io/static/media/After_Jonathan.13a00c381429e749fff8.png",
+    "static/media/image_hero-removebg-preview.png": "/jonathanpruitt.github.io/static/media/image_hero-removebg-preview.60b1df8dfbafa66b9ed2.png",
+    "static/media/slasher.png": "/jonathanpruitt.github.io/static/media/slasher.6b8245e820d1eda65b2a.png",
+    "static/media/me.jpg": "/jonathanpruitt.github.io/static/media/me.3e73c4d8f5981faa94b9.jpg",
+    "index.html": "/jonathanpruitt.github.io/index.html",
+    "main.a7950dd6.js.map": "/jonathanpruitt.github.io/static/js/main.a7950dd6.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.a7950dd6.js"
+  ]
+}
