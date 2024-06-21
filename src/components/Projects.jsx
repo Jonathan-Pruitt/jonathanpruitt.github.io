@@ -28,7 +28,7 @@ function ProjectsGroup() {
             imgSrc : slasher, 
             title: "SLASHER", 
             body : "A 2D simple action game I created using JavaScript, and rendering through the 'canvas' HTML element. I struggled a bit creating the game engine to handle rotation and angle checks, and my lack of JavaScript expertise led to some clunky code. However, I am proud of the finished product!",
-            link : "../../game",
+            link : "https://jonathan-pruitt.github.io/SLASHER/",
             linkText : "Play SLASHER",
             git : "https://github.com/Jonathan-Pruitt/SLASHER"
         }, 
@@ -36,7 +36,7 @@ function ProjectsGroup() {
             imgSrc : weather, 
             title : "Weather Forecast", 
             body : "This web application grabs your geolocation, then runs an AJAX request against the NWS (National Weather Service) api and renders the response data for a 1 week forecast. This was my first API project in HTML/CSS/JS. The images were self-created, and I had not yet learned bootstrap. The mobile version will look a little wonky.",
-            link : "../../weather/",
+            link : "https://jonathan-pruitt.github.io/MSCodingProjects/",
             linkText : "Site",
             git : "https://github.com/Jonathan-Pruitt/MSCodingProjects/tree/main/Forecast"
         }, 
