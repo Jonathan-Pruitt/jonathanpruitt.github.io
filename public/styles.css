@@ -98,7 +98,7 @@ strong {
 .overlay-text {
     border : 2px solid #264D7D;
     color: #29294C; 
-    font-size: x-large;
+    font-size: calc(1vw + 1vh);
     position: absolute; 
     border-radius: 10px; 
     width: 45%;  
