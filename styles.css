@@ -34,6 +34,7 @@ nav {
 
 p {
     font-family: consolas;
+    font-size : calc(.9vw + .8vh);
 }
 
 strong {
@@ -147,8 +148,7 @@ strong {
 #bio > div > p {
     background-color: #f0f0f0;    
     border: solid 1px #264D7D;
-    box-shadow: 2px 2px 3px #000033;    
-    font-size : calc(1vw + 1vh);
+    box-shadow: 2px 2px 3px #000033;        
     padding : 15px;    
 }
 
