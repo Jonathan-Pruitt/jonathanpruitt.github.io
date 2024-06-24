@@ -144,6 +144,13 @@ strong {
     max-width: fit-content;
 }
 
+#bio > div > p {
+    background-color: #f0f0f0;    
+    border: solid 1px #264D7D;
+    box-shadow: 2px 2px 3px #000033;    
+    font-size : calc(1vw + .5vh);
+}
+
 #header{
     padding: 100px 0 0 0;
     place-content: center;   
