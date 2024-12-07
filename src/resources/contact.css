@@ -16,7 +16,7 @@
     IN THE FUTURE, DO NOT USE THIS BELOW STYLING
 */
 .crawl {
-    left : 50vw;
+    left : -50vw;
     right : -50vw;
 }
 
