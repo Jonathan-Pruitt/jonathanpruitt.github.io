@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jonathanpruitt.github.io/static/css/main.b5ade3ae.css",
+    "main.css": "/jonathanpruitt.github.io/static/css/main.ec08ca4a.css",
     "main.js": "/jonathanpruitt.github.io/static/js/main.17577d34.js",
     "static/media/catan_tracker.pdf": "/jonathanpruitt.github.io/static/media/catan_tracker.b02324a0e4f7c2d18aa1.pdf",
     "static/media/Catan_Track.png": "/jonathanpruitt.github.io/static/media/Catan_Track.bf97a9b4162f9ed66dcb.png",
@@ -14,11 +14,11 @@
     "static/media/slasher.png": "/jonathanpruitt.github.io/static/media/slasher.6b8245e820d1eda65b2a.png",
     "static/media/me.jpg": "/jonathanpruitt.github.io/static/media/me.3e73c4d8f5981faa94b9.jpg",
     "index.html": "/jonathanpruitt.github.io/index.html",
-    "main.b5ade3ae.css.map": "/jonathanpruitt.github.io/static/css/main.b5ade3ae.css.map",
+    "main.ec08ca4a.css.map": "/jonathanpruitt.github.io/static/css/main.ec08ca4a.css.map",
     "main.17577d34.js.map": "/jonathanpruitt.github.io/static/js/main.17577d34.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5ade3ae.css",
+    "static/css/main.ec08ca4a.css",
     "static/js/main.17577d34.js"
   ]
 }
