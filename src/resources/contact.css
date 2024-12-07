@@ -5,20 +5,31 @@
     right: 0;
     color: #f0f0f0;
     text-shadow: 0 0 5px #101010;
-    margin-bottom : 2%;
     padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .crawl > h2, .crawl > div > h3, .crawl > div > h4 {
     color: #f0f0f0;
 }
 
+.crawl > div > a {
+    color: #c0c0c0;
+    transition: .3s;
+}
+
+.crawl > div > a:hover {
+    text-decoration: none;
+    transition: .2;
+    color: #909090;
+}
 /*
     IN THE FUTURE, DO NOT USE THIS BELOW STYLING
 */
 .crawl {
     left : -50vw;
     right : -50vw;
+    overflow-x: hidden;
 }
 
 /*
