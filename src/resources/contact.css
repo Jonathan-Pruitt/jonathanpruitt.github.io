@@ -1,0 +1,23 @@
+.crawl {
+    margin-bottom : 1%;
+    background-color: #264d7d;
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: #f0f0f0;
+    text-shadow: 0 0 5px #101010;
+}
+
+.text-expand {
+    transition: .6s;
+    cursor: default;
+}
+
+.text-expand:hover {
+    transition: .4s;
+    letter-spacing: .4rem;
+}
+
+.fa {
+    font-size: calc(3vw + 2rem);
+}

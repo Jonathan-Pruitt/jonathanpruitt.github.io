@@ -8,6 +8,7 @@ import Bio from "./components/Bio";
 import Bored from "./components/Bored";
 import Contact from "./components/Contact";
 import Navigator from "./components/Navigator";
+import Footer from "./components/Footer";
 
 function App() {    
 
@@ -23,7 +24,8 @@ function App() {
                     <Knowledge />
                     <Bio /> 
                     <Bored />            
-                    <Contact />
+                    {/* <Contact /> */}
+                    <Footer />
                 </div>
             </div>
         </div>
