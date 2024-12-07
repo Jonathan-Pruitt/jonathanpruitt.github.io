@@ -1,6 +1,6 @@
 import catan from "../images/Catan_Track.png"
 import catanPDF from '../resources/catan_tracker.pdf'
-import weather from "../images/weather2.jpg"
+import weather from "../images/weather.jpg"
 import myFace from "../images/me.jpg"
 import slasher from "../images/slasher.png"
 
@@ -36,9 +36,9 @@ function ProjectsGroup() {
             imgSrc : weather, 
             title : "Weather Forecast", 
             body : "This web application grabs your geolocation, then runs an AJAX request against the NWS (National Weather Service) api and renders the response data for a 1 week forecast. This was my first API project in HTML/CSS/JS. The images were self-created, and I had not yet learned bootstrap. The mobile version will look a little wonky.",
-            link : "https://jonathan-pruitt.github.io/MSCodingProjects/",
+            link : "https://jonathan-pruitt.github.io/Forecast-Site/",
             linkText : "Site",
-            git : "https://github.com/Jonathan-Pruitt/MSCodingProjects/tree/main/Forecast"
+            git : "https://github.com/Jonathan-Pruitt/Forecast-Site"
         }, 
         {
             imgSrc : myFace, 
