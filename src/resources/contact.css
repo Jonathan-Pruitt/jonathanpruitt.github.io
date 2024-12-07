@@ -8,8 +8,13 @@
     text-shadow: 0 0 5px #101010;
 }
 
-.crawl > h2, .crawl > div {
+.crawl > h2, .crawl > div > h3, .crawl > div > h4 {
     color: #f0f0f0;
+}
+
+#contact {
+    margin-bottom : 2%;
+    padding-top: 3%;
 }
 
 /*
