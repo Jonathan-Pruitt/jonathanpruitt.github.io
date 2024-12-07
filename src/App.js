@@ -23,8 +23,8 @@ function App() {
                     <Projects />
                     <Knowledge />
                     <Bio /> 
-                    <Footer />
                     <Bored />            
+                    <Footer />
                     {/* <Contact /> */}
                 </div>
             </div>

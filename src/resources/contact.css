@@ -8,6 +8,22 @@
     text-shadow: 0 0 5px #101010;
 }
 
+.crawl > h2 .crawl > div {
+    color: #f0f0f0;
+}
+
+/*
+    IN THE FUTURE, DO NOT USE THIS BELOW STYLING
+*/
+.crawl {
+    left : 50vw;
+    right : -50vw;
+}
+
+/*
+    IN THE FUTURE, DO NOT USE THIS ABOVE STYLING
+*/
+
 .text-expand {
     transition: .6s;
     cursor: default;
