@@ -23,9 +23,9 @@ function App() {
                     <Projects />
                     <Knowledge />
                     <Bio /> 
+                    <Footer />
                     <Bored />            
                     {/* <Contact /> */}
-                    <Footer />
                 </div>
             </div>
         </div>
