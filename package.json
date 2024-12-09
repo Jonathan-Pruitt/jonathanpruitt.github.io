@@ -32,6 +32,6 @@
   },
   "homepage": "https://jonathan-pruitt.github.io/jonathanpruitt.github.io/",
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.2.0"
   }
 }
