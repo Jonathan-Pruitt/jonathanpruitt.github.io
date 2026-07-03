@@ -106,6 +106,50 @@
         }
     },
     {
+        "title" : "Git Learning Sandbox",
+        "iconPath" : "icons/logo.png",
+        "description" : "This project is focused on building a foundation and $*community support$ for beginners using git and command-line interface. The repo is a zero-stakes $*playground$, where you can learn without fear of breaking functional code/projects. If you want to practice basic command-line navigation, branching, and submitting pull requests $*without worrying$ about damaging a real codebase, you are in the right place.",
+        "techStack" : [
+            "github",
+            "linux"
+        ],
+        "tags" : [
+            {
+                "textIndicator" : "personal",
+                "colorIndicator" : "personal",
+                "iconPath" : "/src/assets/icons/tags/personal.svg"
+            },
+            {
+                "textIndicator" : "community",
+                "colorIndicator" : "usage",
+                "iconPath" : "/src/assets/icons/tags/social.svg"
+            },
+            {
+                "textIndicator" : "educational",
+                "colorIndicator" : "usage",
+                "iconPath" : "/src/assets/icons/tags/educational.svg"
+            }
+        ],
+        "images" : [
+            {
+                "path": "images/img-projects/git-sandbox/beginner-cli.png",
+                "altText": "CLI for beginners"
+            },
+            {
+                "path": "images/img-projects/git-sandbox/data-view.png",
+                "altText": "Viewing Git for beginners"
+            },
+            {
+                "path": "images/img-projects/git-sandbox/data-interactions.png",
+                "altText": "Using Git for beginners"
+            }
+        ],
+        "links" : {
+            "sample": "https://github.com/Jonathan-Pruitt/Git-Learning-Sandbox",
+            "repo": ""
+        }
+    },
+    {
         "title" : "Slasher",
         "iconPath" : "icons/logo.png",
         "description" : "A one-week, $*self-educational$ project built entirely in $*vanilla JavaScript$ and an HTML Canvas tag. I chose to $*bypass external frameworks$, opting instead to focus on improving my understanding of game creation, core game logic, $*state management$, rendering objects, and player/enemy controls/movement",
