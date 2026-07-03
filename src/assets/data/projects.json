@@ -110,7 +110,7 @@
         "iconPath" : "icons/logo.png",
         "description" : "This project is focused on building a foundation and $*community support$ for beginners using git and command-line interface. The repo is a zero-stakes $*playground$, where you can learn without fear of breaking functional code/projects. If you want to practice basic command-line navigation, branching, and submitting pull requests $*without worrying$ about damaging a real codebase, you are in the right place.",
         "techStack" : [
-            "github",
+            "learning-github",
             "linux"
         ],
         "tags" : [
