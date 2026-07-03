@@ -49,6 +49,13 @@
         "useFrequency" : 2
     },
     {
+        "id": "learning-github",
+        "title": "GitHub",
+        "domain": "educational",
+        "iconPath" : "/src/assets/icons/tech/github.svg",
+        "useFrequency" : 3
+    },
+    {
         "id": "linear",
         "title" : "Linear",
         "domain" : "project management",

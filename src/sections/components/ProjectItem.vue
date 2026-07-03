@@ -55,12 +55,14 @@ const loadTechTags = () => {
     const frame = tags.filter((t) => t.domain == 'framework');
     const pMan = tags.filter((t) => t.domain == 'project management');
     const vCont = tags.filter((t) => t.domain == 'version control');
+    const edu = tags.filter((t) => t.domain == 'educational')
 
     addTags(fEnd);
     addTags(bEnd);
     addTags(frame);
     addTags(pMan);
     addTags(vCont);
+    addTags(edu);
     emit('update-max-tech', maxTags)
 
     function addTags(tagArray) {
@@ -169,6 +171,14 @@ onMounted(() => {
               <ProjectTagList
                 :tag-array="techTags['project management']"
                 title="Project Mgmt"
+                :max-logos="maxLogos"
+              />
+            </div>
+
+            <div v-if="techTags.edu">
+              <ProjectTagList
+                :tag-array="techTags.edu"
+                title="Educational"
                 :max-logos="maxLogos"
               />
             </div>
