@@ -175,9 +175,9 @@ onMounted(() => {
               />
             </div>
 
-            <div v-if="techTags.edu">
+            <div v-if="techTags.educational">
               <ProjectTagList
-                :tag-array="techTags.edu"
+                :tag-array="techTags.educational"
                 title="Educational"
                 :max-logos="maxLogos"
               />
